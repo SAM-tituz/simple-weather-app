@@ -33,4 +33,10 @@ searchbtn.addEventListener("click", () => {
   weatherCheck(search.value);
   search.value=""
 });
+document.addEventListener("keypress", (event) => {
+  if(event.key=="Enter"){
+  weatherCheck(search.value);
+  search.value=""
+  }
+});
  
