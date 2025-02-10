@@ -26,6 +26,8 @@
             placeholder="Enter City Name"
             aria-label="Enter City Name"
             aria-describedby="button-addon2"
+            spellcheck="false"
+            id="search"
           />
           <button
             class="btn btn-light bi bi-search"
@@ -33,21 +35,22 @@
             id="button-addon2"
           ></button>
         </div>
-        <div class="weather">
+        <div class="weather" >
           <img src="assets/icons8-heavy-rain-100.png" alt="weather img" />
-          <h1 class="temp">22°C</h1>
-          <h1 class="city">New York</h1>
-        </div>
-        <div class="row">
-          <div class="col">
-            <img src="assets/icons8-humidity-100.png" alt="Humidity img" />
-            <samp>50%</samp>
-            <samp>Humidity</samp>
-          </div>
-          <div class="col">
-            <img src="assets/icons8-wind-100.png" alt="Wind img" />
-            <samp>5 Km/h</samp>
-            <samp>Wind</samp>
+          
+          <p class="temp">22°C</p>
+          <p class="city">New York</p>
+          <div class=" row">
+            <div class="col">
+              <img src="assets/icons8-humidity-100.png" alt="Humidity img" />
+              <samp class="humidity">50%</samp>
+              <samp>Humidity</samp>
+            </div>
+            <div class="col">
+              <img src="assets/icons8-wind-100.png" alt="Wind img" />
+              <samp class="speed">5 Km/h</samp>
+              <samp>Wind</samp>
+            </div>
           </div>
         </div>
       </div>
